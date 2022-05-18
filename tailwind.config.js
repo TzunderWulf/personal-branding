@@ -2,11 +2,11 @@ module.exports = {
   content: ["./*.{html,js}"],
   theme: {
     extend: {
-      stPatrickBlue: '#2a2a72',
-      ceruleanBlue: '#6b9ac4',
-      yellowOrange: '#ffaf47',
-      softWhite: '#fefcfd',
-      choclateBlack: '#191102'
+      colors: {
+        darkBlue: '#14213d',
+        yellowOrange: '#FCA311',
+        softWhite: '#E5E5E5',
+      },
     },
   },
   plugins: [],

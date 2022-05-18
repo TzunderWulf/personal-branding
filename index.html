@@ -5,9 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
         <link href="./dist/output.css" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
     </head>
 
-    <body class="h-full w-full font-bold">
+    <body class="h-full w-full font-bold font-standard">
         <nav id="menu" class="h-max w-full pt-5 pl-5 text-4xl fixed top-0 z-20 lg:h-full lg:w-1/6">
             <i id="hamburger-menu" class="bi bi-list hover:cursor-pointer text-softWhite"></i>
             <div id="menu-links" class="hidden text-black py-5">
@@ -34,26 +38,28 @@
                 <img class="w-full h-full object-cover blur-sm" src="images/arnold-francisca-f77Bh3inUpE-unsplash.jpg" alt="computer">
                 <div class="absolute bottom-1/2 w-full p-10 lg:w-2/4 lg:left-1/4 ">
                     <div class="bg-softWhite/60 border-softWhite/60 rounded-lg text-center py-5">
-                        <h1 class="w-4/5 mx-auto pb-2 text-black text-6xl border-b-2 border-yellowOrange lg:w-max">Sara van den Bos</h1>
-                        <h2 class="text-3xl mb-5">creative developer</h2>
+                        <h1 class="w-4/5 mx-auto pb-2 text-black text-6xl border-b-2 border-yellowOrange font-heading lg:w-max">Sara van den Bos</h1>
+                        <h2 class="text-3xl my-3 font-heading">creative developer</h2>
                         <p class="italic font-normal">Scroll down to learn more about me, what I do and how to find me</p>
                     </div>
                 </div>
             </div>
-            <div id="about-me" class="h-max w-full mx-auto py-20 text-softWhite lg:w-3/5">
-                <h1 class="text-center text-5xl">About Me</h1>
-                <div class="h-max mx-auto flex flex-col items-center p-10 lg:w-4/5  lg:flex-row">
+            <div id="about-me" class="h-max w-full mx-auto py-20 text-softWhite lg:w-4/6">
+                <div class="h-max mx-auto flex flex-col items-center p-10 lg:w-4/5 lg:flex-row">
                     <img class="w-48 h-auto mb-5 rounded-full lg:mb-0 lg:mr-10" 
-                        src="./images/FQqkI7KVIAYdOQH.jpg">
-                    <p class="text-xl lg: pl-10 lg:border-l-4 border-yellowOrange">
-                        Hi, my name is Sara! I'm 
-                        currently studying Creative Media and Game Technologies. 
-                        During the first two years, my interest in web development 
-                        grew, specifically in back-end development. I strive for
-                        organized and neat code.
-                    </p>
+                    src="./images/FQqkI7KVIAYdOQH.jpg">
+                    <div class="lg:pl-10 lg:border-l-4 border-yellowOrange">
+                        <h1 class="text-6xl mb-5 font-heading">About Me</h1>
+                        <p class="text-xl">
+                            Hi, my name is Sara! I'm 
+                            currently studying Creative Media and Game Technologies. 
+                            During the first two years, my interest in web development 
+                            grew, specifically in back-end development. I strive for
+                            organized and neat code.
+                        </p>
+                    </div>
                 </div>
-                <h1 class="text-center text-5xl pb-5">Worked with</h1>
+                <!-- <h1 class="text-center text-5xl pb-5">Worked with</h1>
                 <div class="h-max flex flex-col justify-center items-center lg:flex-row lg:flex-wrap">
                     <img class="w-48 h-auto m-5 rounded-full" 
                         src="./images/FQqkI7KVIAYdOQH.jpg">
@@ -61,16 +67,33 @@
                         src="./images/FQqkI7KVIAYdOQH.jpg">
                     <img class="w-48 h-auto m-5 rounded-full" 
                         src="./images/FQqkI7KVIAYdOQH.jpg">
-                </div>
+                </div> -->
             </div>
             <div id="my-portfolio" class="h-max w-full mx-auto py-20 text-softWhite lg:w-3/5">
-                <h1 class="text-center text-5xl pb-10">Showcase of some projects</h1>
-                    <p class="text-3xl text-center">No projects yet, they will soon be added..</p>
+                <div class="w-full h-max grid items-center justify-center lg:grid-cols-3 lg:grid-rows-2 gap-5">
+                    <h1 class="row-span-2 font-heading text-6xl lg:text-8xl text-center">Project Showcase</h1>
+                    <div class="bg-red-500">
+                        <img class="w-max h-auto" 
+                        src="./images/FQqkI7KVIAYdOQH.jpg">
+                    </div>
+                    <div class="bg-indigo-500">
+                        <img class="w-max h-auto" 
+                        src="./images/FQqkI7KVIAYdOQH.jpg">
+                    </div>
+                    <div class="bg-blue-500">
+                        <img class="w-max h-auto" 
+                        src="./images/FQqkI7KVIAYdOQH.jpg">
+                    </div>
+                    <div class="bg-orange-500">
+                        <img class="w-max h-auto" 
+                        src="./images/FQqkI7KVIAYdOQH.jpg">
+                    </div>
+                </div>
             </div>
             <div id="contact-me" class="h-max w-full mx-auto py-20 text-softWhite lg:w-3/5">
                 <div class="p-5 flex flex-col items-center justify-center lg:flex-row lg:border-l-4 lg:border-l-yellowOrange">
                     <div class="border-l-4 border-l-yellowOrange pl-4 lg:w-2/5 lg:border-l-0">
-                        <h1 class="text-6xl pb-5">Contact me</h1>
+                        <h1 class="text-6xl pb-5 font-heading">Contact me</h1>
                         <p class="text-xl">Interested in working with me? <br> Shoot me a message via one of these platforms!</p>
                     </div>
                     <a href="https://twitter.com/tzunderwulf" class="w-3/5 m-5 lg:w-1/5 ">

@@ -582,6 +582,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 420px;
 }
 
+.h-\[300px\] {
+  height: 300px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -879,6 +883,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 100%;
   }
 
+  .lg\:h-\[420px\] {
+    height: 420px;
+  }
+
   .lg\:w-1\/6 {
     width: 16.666667%;
   }
@@ -907,6 +915,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:w-2\/6 {
     width: 33.333333%;
+  }
+
+  .lg\:w-3\/4 {
+    width: 75%;
   }
 
   .lg\:grid-cols-3 {

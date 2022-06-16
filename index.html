@@ -14,7 +14,7 @@
 
 <body class="h-full w-full font-bold font-standard">
     <nav id="menu" class="h-max w-full pt-5 pl-5 text-3xl fixed top-0 z-20 lg:h-full lg:w-1/6">
-        <i id="hamburger-menu" class="bi bi-list hover:cursor-pointer text-softWhite text-6xl"></i>
+        <i id="hamburger-menu" class="bi bi-list hover:cursor-pointer text-softWhite text-5xl"></i>
         <div id="menu-links" class="hidden text-black py-5">
             <div class="pb-5 hover:underline hover:cursor-pointer flex">
                 <i class="bi bi-caret-right-fill"></i>
@@ -36,12 +36,12 @@
     </nav>
     <main class="z-0 text-softWhite">
         <div id="home" class="h-screen text-black">
-            <img class="w-full h-full object-cover blur-sm" src="images/arnold-francisca-f77Bh3inUpE-unsplash.jpg"
-                alt="computer">
+            <img class="w-full h-full object-cover blur-sm" src="images/arnold-francisca-bg-laptop.jpg"
+                alt="Blurred out laptop with code">
             <div class="absolute bottom-1/4 lg:bottom-1/2 w-full p-10 lg:w-2/4 lg:left-1/4">
                 <div class="bg-softWhite/60 border-softWhite/60 rounded-lg text-center py-5">
                     <h1
-                        class="w-4/5 mx-auto pb-2 text-black text-6xl border-b-4 border-yellowOrange font-heading lg:w-max">
+                        class="break-words lg:break-normal w-4/5 mx-auto pb-2 text-black text-6xl border-b-4 border-yellowOrange font-heading lg:w-max">
                         TzunderWulf</h1>
                     <h2 class="text-3xl my-3 font-heading">student - creative developer - back-end developer</h2>
                     <p class="italic font-normal">
@@ -53,41 +53,43 @@
         <div id="about-me" class="h-max w-full mx-auto py-20 lg:w-4/6">
             <div class="h-max mx-auto flex flex-col items-center p-10 lg:w-4/5 lg:flex-row">
                 <div class="pr-5">
-                    <img class="mb-5 rounded-full lg:mb-0 md:mr-10" src="./images/image0.jpg">
-                    <p class="italic text-center mt-3 mb-5 lg:mb-0">Profile picture created by 
+                    <img class="mb-5 rounded-full lg:mb-0 md:mr-10" src="./images/about-me/profile_picture.jpg"
+                        alt="Profile image drawn">
+                    <p class="italic text-center mt-3 mb-5 lg:mb-0">Profile picture created by
                         <a class="underline" href="https://twitter.com/NagalieArt">NagalieArt</a>
                     </p>
                 </div>
                 <div class="lg:pl-10 lg:border-l-4 border-yellowOrange">
                     <h1 class="text-6xl mb-5 font-heading text-center lg:text-left ">About Me</h1>
                     <p class="text-xl mb-5">
-                        Hi, my name is TzunderWulf: a creative developer.  
+                        Hi, my name is TzunderWulf: a creative developer.
                     </p>
                     <p class="text-xl mb-5">
                         As a creative developer, I have specialized in back-end development.
-                        My goal is to find the best fitting solution for the end-user. My 
-                        motivation comes from seeing the gains user can have with the products 
+                        My goal is to find the best fitting solution for the end-user. My
+                        motivation comes from seeing the gains user can have with the products
                         I build.
                     </p>
                     <p class="text-xl italic mb-5">
-                        "A good functioning and stable back-end matters just as much as a good-looking 
+                        "A good functioning and stable back-end matters just as much as a good-looking
                         front-end."
                     </p>
                     <p class="text-xl mb-5">
-                        Accuracy, stability and security: elements I believe necessary for a solid 
+                        Accuracy, stability and security: elements I believe necessary for a solid
                         back-end. These are the things that I want to provide as a developer.
                     </p>
                 </div>
             </div>
-            <!-- <h1 class="text-center text-5xl pb-5">Worked with</h1>
-                <div class="h-max flex flex-col justify-center items-center lg:flex-row lg:flex-wrap">
-                    <img class="w-48 h-auto m-5 rounded-full" 
-                        src="./images/FQqkI7KVIAYdOQH.jpg">
-                    <img class="w-48 h-auto m-5 rounded-full" 
-                        src="./images/FQqkI7KVIAYdOQH.jpg">
-                    <img class="w-48 h-auto m-5 rounded-full" 
-                        src="./images/FQqkI7KVIAYdOQH.jpg">
-                </div> -->
+            <div class="p-5 w-full h-auto">
+                <h1 class="font-heading text-6xl text-center mb-10">Languages</h1>
+                <div class="flex flex-col lg:flex-row justify-center">
+                    <img class="w-1/5 h-auto mx-5 rounded-full" src="./images/about-me/js_logo.jpg"
+                        alt="Javascript programming language logo">
+                    <img class="w-1/5 h-auto mx-5 rounded-full" src="./images/about-me/mysql_logo.png"
+                        alt="PHP programming language logo">
+                    <img class="w-1/5 h-auto mx-5 rounded-full" src="./images/about-me/php_logo.png" alt="MySQL logo">
+                </div>
+            </div>
         </div>
         <div id="my-portfolio" class="h-max w-full mx-auto py-20 lg:w-3/5">
             <div class="grid px-5 lg:grid-cols-3 lg:grid-rows-2 lg:gap-10 lg:items-center lg:px-0">
@@ -97,7 +99,7 @@
                 <div class="border-l-4 border-yellowOrange pl-5 py-3 mb-10 lg:mb-0">
                     <h1 class="font-heading text-4xl">RESTful Webservice</h1>
                     <p class="pb-5 text-xl">
-                        A RESTful webservice to store, add, edit an delete characters, with 
+                        A RESTful webservice to store, add, edit an delete characters, with
                         a React front-end.
                     </p>
                     <a class="hover:underline text-xl" href="./project-1.html">
@@ -107,7 +109,7 @@
                 <div class="border-l-4 border-yellowOrange pl-5 py-3 mb-10 lg:mb-0">
                     <h1 class="font-heading text-4xl">Roamer</h1>
                     <p class="pb-5 text-xl">
-                        Roamer was a small webapplication made with a neural network from 
+                        Roamer was a small webapplication made with a neural network from
                         ML5.js.
                     </p>
                     <a class="hover:underline text-xl" href="./project-2.html">
@@ -143,14 +145,15 @@
                         platforms!</p>
                 </div>
                 <a href="https://twitter.com/tzunderwulf" class="w-3/5 m-5 lg:w-1/6">
-                    <img class="w-full h-auto rounded-full"
-                        src="./images/3225183_app_logo_media_popular_social_icon.png">
+                    <img class="w-full h-auto rounded-full" src="./images/socials/logo_social_icon_twitter.png"
+                        alt="Twitter logo">
                 </a>
                 <a href="https://github.com/tzunderwulf" class="w-3/5 m-5 lg:w-1/6">
-                    <img class="w-full h-auto rounded-full" src="./images/GitHub-Mark-Light-120px-plus.png">
+                    <img class="w-full h-auto rounded-full" src="./images/socials/logo_social_icon_github.png"
+                        alt="Github logo">
                 </a>
                 <a href="https://www.linkedin.com/in/sara-van-den-bos-26431b1b9/" class="w-3/5 m-5 lg:w-1/6">
-                    <img class="w-full h-auto" src="./images/3225190_app_linkedin_logo_media_popular_icon.png">
+                    <img class="w-full h-auto" src="./images/socials/logo_social_icon_linkedin.png" alt="Linkedin logo">
                 </a>
             </div>
         </div>
